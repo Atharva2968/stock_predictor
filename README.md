@@ -4,7 +4,7 @@ Final project for the Building AI course
 
 ## Summary
 
-📈 AI Stock Market Predictor is a machine learning application that predicts future stock prices using historical market data. It helps users understand stock trends through AI-powered forecasting and simple visualizations.
+AI Stock Market Predictor is a machine learning application that predicts future stock prices using historical market data. It helps users understand stock trends through AI-powered forecasting and simple visualizations.
 
 ---
 
