@@ -4,40 +4,34 @@ Final project for the Building AI course
 
 ## Summary
 
-AI Stock Market Predictor is a machine learning application that predicts future stock prices using historical market data. It helps users understand stock trends through AI-powered forecasting and simple visualizations.
-
----
+AI Stock Market Predictor is a machine learning application that predicts future stock prices using historical market data. It helps users understand market trends and supports better investment decisions.
 
 ## Background
 
-Investing in the stock market is difficult because prices change every second due to economic conditions, news, and global events. Beginners often struggle to understand these trends and make informed decisions.
+The stock market changes constantly, making it difficult for investors to predict future prices. Many beginners do not have the knowledge or tools to analyze market trends effectively.
 
-This project aims to solve these problems:
+This project aims to solve the following problems:
 
-- 📉 Difficulty predicting future stock prices.
-- 🤔 Lack of knowledge about market trends.
-- ⏳ Time-consuming manual analysis.
-- 📊 Limited access to simple AI-based prediction tools.
+- Predict future stock prices using AI.
+- Help beginners understand market trends.
+- Reduce manual analysis.
+- Provide a simple and easy-to-use prediction tool.
 
-### Why I chose this project
-
-I am interested in Artificial Intelligence, Machine Learning, and Finance. This project combines these fields into a practical AI application that demonstrates how machine learning can be used to analyze real-world financial data.
-
----
+My interest in artificial intelligence and finance inspired me to create this project.
 
 ## How is it used?
 
-The user enters a stock symbol such as **AAPL**, **TSLA**, or **RELIANCE**.
+The user enters a stock symbol such as AAPL, TSLA, or RELIANCE.
 
 The application then:
 
-1. 📥 Downloads historical stock market data.
-2. 🧹 Cleans and prepares the data.
-3. 🤖 Trains a machine learning model.
-4. 📈 Predicts future stock prices.
-5. 📊 Displays the prediction and charts.
+1. Downloads historical stock market data.
+2. Processes and cleans the data.
+3. Trains a machine learning model.
+4. Predicts future stock prices.
+5. Displays the prediction.
 
-### Example
+Example:
 
 ```python
 symbol = input("Enter Stock Symbol: ")
@@ -47,76 +41,65 @@ prediction = predict_price(symbol)
 print("Predicted Price:", prediction)
 ```
 
-### Users
+The project is intended for:
 
-- 🎓 Students
-- 💼 Investors
-- 📊 Financial Analysts
-- 🤖 AI Enthusiasts
-
----
+- Students
+- Investors
+- Researchers
+- Anyone interested in stock market analysis
 
 ## Data sources and AI methods
 
 ### Data Sources
 
-- 📈 Yahoo Finance Historical Data
-- 🌐 Public Stock Market Data
+- Yahoo Finance
+- Public stock market datasets
 
 ### AI Methods
 
-- 🤖 Machine Learning
-- 📊 Linear Regression
-- 📈 Time Series Analysis
-- 🧹 Data Preprocessing
+- Machine Learning
+- Linear Regression
+- Time Series Analysis
+- Data Preprocessing
 
-### Technologies Used
+### Technologies
 
 | Technology | Purpose |
 |------------|---------|
 | Python | Programming Language |
 | Pandas | Data Processing |
-| NumPy | Numerical Operations |
+| NumPy | Numerical Computing |
 | Scikit-learn | Machine Learning |
-| Matplotlib | Data Visualization |
-| yFinance | Download Stock Data |
+| yFinance | Stock Market Data |
 
----
+Useful links:
+
+- https://finance.yahoo.com/
+- https://pypi.org/project/yfinance/
 
 ## Challenges
 
-This project cannot predict stock prices with complete accuracy because financial markets are influenced by many unpredictable factors.
+The stock market is influenced by many unpredictable factors such as economic conditions, political events, and breaking news. Therefore, predictions cannot be completely accurate.
 
-Some limitations include:
-
-- 🌍 Global economic events
-- 📰 Breaking news
-- 💰 Market volatility
-- 📉 Unexpected market crashes
-- 📊 Limited historical data
-
-⚠️ This project is intended for educational purposes only and should not be used as financial advice.
-
----
+This project is designed for learning purposes and should not be used as financial advice.
 
 ## What next?
 
 Future improvements include:
 
-- 🧠 Deep Learning (LSTM)
-- 🤖 Transformer Models
-- 📰 News Sentiment Analysis
-- 💬 Social Media Analysis
-- 📱 Mobile Application
-- ☁️ Cloud Deployment
-- 🔔 Real-Time Stock Alerts
-- 💹 Cryptocurrency Prediction
-
----
+- Deep Learning models such as LSTM
+- News sentiment analysis
+- Cryptocurrency prediction
+- Mobile application
+- Real-time stock alerts
+- Cloud deployment
 
 ## Acknowledgments
 
-- ❤️ University of Helsinki for the Building AI course.
-- ❤️ Reaktor Innovations for developing the course.
-- ❤️ Yahoo Finance for providing historical stock market data.
-- ❤️ Python, Pandas, NumPy, and Scikit-learn communities for their open-source libraries.
+- University of Helsinki
+- Reaktor Innovations
+- Yahoo Finance
+- Python community
+- Pandas
+- NumPy
+- Scikit-learn
